@@ -5,9 +5,6 @@ This repository extends on two different projects, mainly [**JetsonYolo**](https
 ### Current use case
 Use a yolocv5 model on a JetsonNano that is connected to two USB Cameras, this model will be used to detect balls and send the position back to the roborio so that the robot can move to that spot, the purpose for flask is so that a driver and/or programmers can connect to the roborio and get a stream of what the camera sees.
 
-### Models
-This project has some models currently preinstalled inside of weights/ folder delete them if you wish.
-
 ## Requirements
 These steps are essential for software and hardware configuration.
 
